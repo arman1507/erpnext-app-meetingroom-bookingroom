@@ -1,0 +1,27 @@
+{
+ "add_total_row": 0,
+ "creation": "2019-11-02 15:02:58.271563",
+ "disable_prepared_report": 0,
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "idx": 0,
+ "is_standard": "Yes",
+ "json": "{\"add_total_row\": 0}",
+ "letter_head": "PengembalianLetter",
+ "modified": "2019-11-02 15:10:18.244902",
+ "modified_by": "Administrator",
+ "module": "meetingroom",
+ "name": "K1 Room",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "query": "select\n`tabK1 Room`.room_type as \"Room Type:Link/K1 Room Type:30\",\n`tabK1 Room`.room_image as \"Room Image:Attach Image:100\",\n`tabK1 Room`.status_room as \"Status Room:select:30\",\n`tabK1 Room`.room_price as \"Room Price:Int:20\" \nfrom `tabK1 Room`",
+ "ref_doctype": "K1 Room",
+ "report_name": "K1 Room",
+ "report_type": "Query Report",
+ "roles": [
+  {
+   "role": "System Manager"
+  }
+ ]
+}

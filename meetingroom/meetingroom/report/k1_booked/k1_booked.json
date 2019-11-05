@@ -1,0 +1,26 @@
+{
+ "add_total_row": 0,
+ "creation": "2019-11-02 13:42:03.676843",
+ "disable_prepared_report": 0,
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "idx": 0,
+ "is_standard": "Yes",
+ "letter_head": "PengembalianLetter",
+ "modified": "2019-11-04 09:36:51.160565",
+ "modified_by": "Administrator",
+ "module": "meetingroom",
+ "name": "K1 Booked",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "query": "select\n`tabK1 Booked Room`.id_member as \"ID Member:Link/K1 Member:100\",\n`tabK1 Booked Room`.member_name as \"Member Name:Data:30\",\n`tabK1 Booked Room`.member_type as \"Member Type:Data:30\",\n`tabK1 Booked Room`.booking_date as \"Booking Date:Date:100\",\n`tabK1 Booked Room`.end_date as \"End Date:Date:100\",\n`tabK1 Booked Room`.status as \"Status:Select/Booked:30\",\n`tabK1 Booked Room`.booking_price as \"Booking Price:int:30\"\nfrom `tabK1 Booked Room`",
+ "ref_doctype": "K1 Booked Room",
+ "report_name": "K1 Booked",
+ "report_type": "Query Report",
+ "roles": [
+  {
+   "role": "System Manager"
+  }
+ ]
+}

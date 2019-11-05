@@ -1,0 +1,26 @@
+{
+ "add_total_row": 0,
+ "creation": "2019-11-02 15:21:34.209935",
+ "disable_prepared_report": 0,
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "idx": 0,
+ "is_standard": "Yes",
+ "letter_head": "PengembalianLetter",
+ "modified": "2019-11-02 15:25:56.826029",
+ "modified_by": "Administrator",
+ "module": "meetingroom",
+ "name": "K1 Top Up Point",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "query": "select\n`tabK1 Top Up Point`.id_member as \"ID Member:Link/K1 Member:30\",\n`tabK1 Top Up Point`.member_name as \"Member Name:Data:30\",\n`tabK1 Top Up Point`.top_up_nominal as \"Top Up Nominal:Int:30\",\n`tabK1 Top Up Point`.top_up_point as \"Top Up Point:Int:30\"\nfrom `tabK1 Top Up Point`",
+ "ref_doctype": "K1 Top Up Point",
+ "report_name": "K1 Top Up Point",
+ "report_type": "Query Report",
+ "roles": [
+  {
+   "role": "System Manager"
+  }
+ ]
+}

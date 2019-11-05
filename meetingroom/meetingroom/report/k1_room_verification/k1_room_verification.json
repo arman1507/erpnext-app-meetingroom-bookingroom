@@ -1,0 +1,26 @@
+{
+ "add_total_row": 0,
+ "creation": "2019-11-02 15:17:23.164908",
+ "disable_prepared_report": 0,
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "idx": 0,
+ "is_standard": "Yes",
+ "letter_head": "PengembalianLetter",
+ "modified": "2019-11-02 15:20:54.087715",
+ "modified_by": "Administrator",
+ "module": "meetingroom",
+ "name": "K1 Room Verification",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "query": "select\n`tabK1 Room Verification`.id_booking as \"ID Booking:Link/K1 Booked Room:20\",\n`tabK1 Room Verification`.member_name as \"Member Name:Data:30\",\n`tabK1 Room Verification`.member_type as \"Member Type:Data:30\",\n`tabK1 Room Verification`.booking_date as \"Booking Date:Date:100\",\n`tabK1 Room Verification`.end_date as \"End Date:Date:100\",\n`tabK1 Room Verification`.status as \"Status:Select:30\",\n`tabK1 Room Verification`.booking_price as \"Total Price:Int:30\"\nfrom `tabK1 Room Verification`",
+ "ref_doctype": "K1 Room Verification",
+ "report_name": "K1 Room Verification",
+ "report_type": "Query Report",
+ "roles": [
+  {
+   "role": "System Manager"
+  }
+ ]
+}
